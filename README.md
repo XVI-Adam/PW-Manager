@@ -2,6 +2,7 @@
 This project is command-line interface project for a password management system enabling users to create accounts and log in using a username and password.
 
 How It Works
+<div></div>
     Account Creation: Users can create an account by providing a username and password. The password is securely hashed using SHA-256 before it is stored. This ensures that even if the data is compromised, the actual passwords are not easily retrievable.
     Login: Users can log in by entering their username and the password they set up. The system hashes the provided password and compares it to the stored hash. If they match, the login is successful; otherwise, it denies access, ensuring that only users with valid credentials can log in.
     Secure Password Handling: To enhance security, the script uses the getpass library to hide password input, preventing it from being visible or easily intercepted during entry.
